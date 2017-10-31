@@ -1,0 +1,144 @@
+/*
+* @Author: ZHC
+* @Date:   2017-10-30 16:44:14
+* @Last Modified by:   ZHC
+* @Last Modified time: 2017-10-31 12:29:53
+*/
+html, body {
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif !important;
+}
+
+body {
+	background-image: url("../../assets/images/img-body-background.png") !important;
+}
+
+.padding-top-130 {
+	padding-top: 130px !important;
+}
+
+.home-container {
+	padding: 20px;
+	height: auto;
+}
+
+.home-container img {
+	height: 20%;
+}
+
+.home-container h2 {
+	font-size: 26px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.home-container p {
+	line-height: 12px !important;
+}
+
+.home-container p a {
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+.follow-us-social-container {
+	padding: 0 20px;
+	margin-top: 30px;
+}
+
+.follow-us-wechat-official-qrcode {
+	display: none;
+  	position: absolute;
+  	left: 30%;
+  	bottom: -120px;
+  	border-radius: 4px;
+}
+
+.follow-us-social-item-list {
+	list-style: none;
+	display: block;
+}
+
+.follow-us-social-item-list li {
+	display: block;
+	float: left;
+}
+
+.follow-us-social-item {
+	width: 45px;
+	height: 45px;
+	margin: 10px 40px;
+	display: block;
+}
+
+/*---------------- 实现社交图标的灰色和白色图标之间的切换 start --------------*/
+.follow-us-social-item:hover {
+	text-decoration: none;
+}
+
+.follow-us-social-item img:last-child {
+	display: none;
+}
+
+.follow-us-social-item:hover img:first-child {
+	display:none;
+}
+
+.follow-us-social-item:hover img:last-child {
+	display:inline-block;
+}
+/*---------------- end --------------*/
+
+.follow-us-social-item-icon {
+	width: 45px;
+	height: 45px;
+}
+
+footer {
+	z-index: 100;
+    position: fixed;
+    width: 100%;
+	bottom: 0;
+}
+
+.divider {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.footer-copyright-text {
+	font-size: 12px;
+	margin-top: 3em;
+}
+
+.footer-record-info-text {
+	font-size: 10px;
+}
+
+.footer-friend-links-title {
+	font-size: 12px;
+	margin-bottom: 0.5em;
+}
+
+.footer-friend-links-list {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.footer-friend-links-item {
+	font-size: 10px;
+	margin-top: 5px;
+	color: #549594 !important;
+	text-decoration: none;
+}
+
+.footer-logo-author-container {
+	margin-top: 3em;
+	font-size: 12px;
+}
+
+.logo-author-link {
+	color: #549594 !important;
+	text-decoration: none;
+}
